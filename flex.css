@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    body{
+        background:gray;
+    }
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: black !important;
+    }
+    h1 {
+        display: none;
+    }
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    background:lightpink;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background:yellow;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: beige;
+    padding: 50px;
+    margin:10px;
+}
